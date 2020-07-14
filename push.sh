@@ -10,5 +10,5 @@ echo "Packaging ${hub}/archr2adata:${version}..."
 #
 
 docker login
-docker tag archr:${version} ${hub}/archr2adata:${version}
+docker tag archr2adata:${version} ${hub}/archr2adata:${version}
 docker push ${hub}/archr2adata:${version}
