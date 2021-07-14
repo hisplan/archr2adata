@@ -46,6 +46,7 @@ def make_adata(path_data):
     adata.var_names = peaks.index
 
     for col in [
+        "seqnames", "start", "end", "width", "strand",
         "distToGeneStart",
         "nearestGene",
         "peakType",
