@@ -1,2 +1,3 @@
-# docker-scanpy
-Dockerized Scanpy
+# docker-archr2adata
+
+Dockerized ArchR to AnnData
