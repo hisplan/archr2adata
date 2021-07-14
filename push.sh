@@ -1,7 +1,8 @@
 #!/bin/bash -e
 
+source config.sh
+
 hub="hisplan"
-version="0.0.1"
 
 echo "Packaging ${hub}/archr2adata:${version}..."
 
